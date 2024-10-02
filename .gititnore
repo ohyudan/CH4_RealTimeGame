@@ -1,0 +1,5 @@
+node_modoules
+*.env
+.vs_code.
+.Ds_Store
+**/generated/
