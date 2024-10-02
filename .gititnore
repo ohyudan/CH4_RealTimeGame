@@ -1,5 +1,5 @@
 node_modules
 *.env
-.vs_code.
-.Ds_Store
+.vs_code/
+.Ds_Store/
 **/generated/
