@@ -162,7 +162,8 @@ function getScaleRatio() {
 }
 
 function setScreen() {
-  //localStorage.clear();
+  localStorage.clear();
+  console.clear();
   scaleRatio = getScaleRatio();
   canvas.width = GAME_WIDTH * scaleRatio;
   canvas.height = GAME_HEIGHT * scaleRatio;
@@ -282,7 +283,6 @@ function gameLoop(currentTime) {
   requestAnimationFrame(gameLoop);
 }
 
-// 게임 프레임을 다시 그리는 메서드
 requestAnimationFrame(gameLoop);
 
 window.addEventListener('keyup', reset, { once: true });
